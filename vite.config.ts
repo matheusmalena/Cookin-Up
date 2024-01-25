@@ -1,8 +1,5 @@
-import { fileURLToPath, URL } from 'node:url'
-
-// vite.config.js ou vite.config.ts
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { fileURLToPath, URL } from 'node:url';
+import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   base: '/cookin-up/',
@@ -11,5 +8,8 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
-})
+  },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Cookin-Up/'
+    : '/'
+});
