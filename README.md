@@ -1,3 +1,3 @@
-### cookin-up
+# Cookin-Up
 
 ![alt text](image.png)
