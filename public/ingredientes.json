@@ -38,7 +38,8 @@
         "Noz moscada",
         "Tomilho",
         "Pimenta do Reino",
-        "Cominho"
+        "Cominho",
+        "Soja"
       ],
       "imagem": "temperos_e_especiarias.png"
     },
@@ -67,7 +68,8 @@
         "Batata",
         "Pimentão",
         "Espinafre",
-        "Cenoura"
+        "Cenoura",
+        "Pepino"
       ],
       "imagem": "hortalicas_e_verduras.png"
     },
@@ -130,7 +132,8 @@
         "Morango",
         "Ameixa",
         "Framboesa",
-        "Acabaxi"
+        "Acabaxi",
+        "Manga"
       ],
       "imagem": "frutas_frescas.png"
     },
